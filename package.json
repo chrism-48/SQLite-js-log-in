@@ -1,0 +1,22 @@
+{
+  "name": "sqlite-js-log-in",
+  "version": "1.0.0",
+  "description": "Login page with SQLite",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrism-48/SQLite-js-log-in.git"
+  },
+  "author": "Chris Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrism-48/SQLite-js-log-in/issues"
+  },
+  "homepage": "https://github.com/chrism-48/SQLite-js-log-in#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.8"
+  }
+}
