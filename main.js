@@ -52,10 +52,10 @@ const db = new sqlite3.Database("./test.db", sqlite3.OPEN_READWRITE, (err) => {
 
 //query the database
 //---------------------------------------------------------------------------------------------------------
-// sql = `SELECT * FROM users`;
-// db.all(sql, [], (err, rows) => {
-//     if (err) return console.error(err.message);
-//     rows.forEach(row => {
-//         console.log(row);
-//     })
-// });
+sql = `SELECT * FROM users`;
+db.all(sql, [], (err, rows) => {
+    if (err) return console.error(err.message);
+    rows.forEach(row => {
+        console.log(row);
+    })
+});

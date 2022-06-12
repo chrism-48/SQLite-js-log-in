@@ -6,11 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SQLite Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="ui centered card">
+        <div class="content">
+            <div class="header">Login</div>
+            <div class="meta">username</div>
+            <input id="user" class="inputbox" type="text">
+            <div class="meta">password</div>
+            <input id="pass" class="inputbox" type="password">
+        </div>
+        <div class="btncontainer">
+            <button id="login" class="ui button">login</button>
+            <button id="reset" class="ui button">reset</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="main.js"></script>
+    <script src="index.js"></script>
+
+    <style>
+        body {
+            background-image: url('./images/825860[DesktopNexus.com].webp')
+        }
+        
+        .ui.centered.card {
+            margin-top: 50px;
+            border-style: solid;
+            border-width: .009px;
+            border-color: black;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.432);
+        }
+        
+        .meta {
+            margin-left: 100px;
+        }
+        
+        .inputbox {
+            border-style: solid;
+            border-width: .009px;
+            border-color: black;
+            margin-left: 55px;
+        }
+        
+        .header {
+            text-align: center;
+            font-size: 30px !important;
+        }
+        
+        .ui.button {
+            margin-left: 45px;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+        }
+    </style>
+
 </body>
 
 </html>
